@@ -42,7 +42,8 @@ background: linear-gradient(340deg, rgba(238,124,95,1) 0%, rgba(240,57,118,1) 10
 }
 .iphone
 {
-    height: 70vh;
+    max-height: 70vh;
+    max-width: 70vw;
 }
 
 .titletxt
@@ -69,7 +70,16 @@ background: linear-gradient(340deg, rgba(238,124,95,1) 0%, rgba(240,57,118,1) 10
     margin-bottom: 10%;
 }
 
-.signupbtn
+.buttons
 {
-    margin: 0 5%;
+    margin-left: 10%;
+}
+
+.loginbtn
+{
+    margin: 2% 5%;
+}
+.signupbtn 
+{
+    margin: 2% 5%;
 }
