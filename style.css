@@ -1,0 +1,75 @@
+body
+{
+    width: 100vw;
+    margin:0;
+    
+}
+
+nav{
+    font-size: 1.3em;
+}
+
+.navbar-brand
+{
+    font-family: 'Gotham Rounded', sans-serif;
+    font-weight: 350;
+    font-size: 1.3em;                                            
+}
+
+.nav-item
+{
+    margin: auto 1vw;
+}
+
+#title 
+{
+    width: 100vw;
+    padding: 1% 0;
+    background: rgb(238,124,95);
+background: linear-gradient(340deg, rgba(238,124,95,1) 0%, rgba(240,57,118,1) 100%);
+}
+
+
+.col-md-6
+{
+    text-align: center;
+    margin: 5% 0;
+}
+.row
+{
+    padding: 0;
+    width: 100vw;
+}
+.iphone
+{
+    height: 70vh;
+}
+
+.titletxt
+{
+    padding-left: 5%;
+    text-align: left;
+}
+
+.txt
+{
+    width: 70%;
+    margin-top: 13%;
+    margin-left: 15%;
+    color: white;
+}
+
+.txt h1{
+    margin: 10% 0;
+    font-size: 350%;
+}
+
+.txt p{
+    font-size: 130%;
+    margin-bottom: 10%;
+}
+
+.signupbtn
+{
+    margin: 0 5%;
+}
