@@ -1,6 +1,6 @@
 body
 {
-    width: 100vw;
+    max-width: 100vw;
     margin:0;
     
 }
@@ -11,8 +11,10 @@ nav{
 
 .navbar-brand
 {
-    font-family: 'Gotham Rounded', sans-serif;
-    font-weight: 350;
+    
+    font-family: 'Ubuntu', sans-serif;
+
+    font-weight: 450;
     font-size: 1.3em;                                            
 }
 
@@ -26,7 +28,8 @@ nav{
     width: 100vw;
     padding: 1% 0;
     background: rgb(238,124,95);
-background: linear-gradient(340deg, rgba(238,124,95,1) 0%, rgba(240,57,118,1) 100%);
+    background: linear-gradient(340deg, rgba(238,124,95,1) 0%, rgba(240,57,118,1) 100%);
+    box-shadow: 0px .05rem 1.2rem grey;
 }
 
 
@@ -43,7 +46,7 @@ background: linear-gradient(340deg, rgba(238,124,95,1) 0%, rgba(240,57,118,1) 10
 .iphone
 {
     max-height: 70vh;
-    max-width: 70vw;
+    max-width: 50vw;
 }
 
 .titletxt
@@ -62,12 +65,15 @@ background: linear-gradient(340deg, rgba(238,124,95,1) 0%, rgba(240,57,118,1) 10
 
 .txt h1{
     margin: 10% 0;
-    font-size: 350%;
+    font-size: 3.5em;
+    font-family: 'Gotham Rounded', sans-serif;
+    font-weight: 400;
 }
 
 .txt p{
-    font-size: 130%;
+    font-size: 1.3em;
     margin-bottom: 10%;
+    
 }
 
 .buttons
@@ -82,4 +88,81 @@ background: linear-gradient(340deg, rgba(238,124,95,1) 0%, rgba(240,57,118,1) 10
 .signupbtn 
 {
     margin: 2% 5%;
+}
+
+.download
+{
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+.container
+{
+    text-align: center;
+    padding: 7% 15%;
+    padding-bottom: 2%;
+}
+
+.download h2
+{
+    font-size: 300%;
+    line-height: 1.5;
+}
+
+.download h4
+{
+    font-size: 1.7rem;
+}
+
+.download button
+{
+    margin: 5% 5%;
+    width: 85%;
+}
+
+.download button:hover img
+{
+    filter: invert(1);
+}
+
+
+.download button img
+{
+    padding: 5% 3%;
+}
+
+.download .row
+{
+    margin:0;
+    padding: 0 5%;
+}
+
+.pricing
+{
+    
+    background: rgb(238,124,95);
+    background: linear-gradient(340deg, rgba(238,124,95,1) 0%, rgba(240,57,118,1) 100%);
+    box-shadow: 0px -.05rem 1.2rem grey;
+    text-align: center;
+    color: white;
+    
+}
+
+.pricing .container{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 7%;
+}
+
+.pricing h2{
+    font-size: 3rem;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-weight: 500;
+    margin-bottom: 7%;
+}
+
+.pricing img
+{
+    max-width: 100%;
+    box-shadow: 0px .05rem 2rem black;
 }
