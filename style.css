@@ -213,11 +213,12 @@ nav{
     color: gray;
 }
 
-/* .testimonials
+.testimonials
 {
     background-color: rgb(238,124,95);
     box-shadow: 0px -.05rem 1.2rem grey;
     padding: 10% 5%;
+    padding-bottom: 7%;
     text-align: center;
 }
 
@@ -236,14 +237,20 @@ nav{
     padding: auto 5%;
 }
 
+
+
 .testimonials img
 {
     display: inline;
-    width: 6vw;
-    border-radius: 6vw;
+    width: 100px;
+    border-radius: 100px;
     margin: 0;
+    border: 3px solid white;
+
 
 }
+
+
 
 .testimonials .row
 {
@@ -254,17 +261,30 @@ nav{
 .testimonials .col-md-2
 {
     margin: auto;
+    padding: 3% 0;
+    
 }
 .testname
 {
     margin: auto 0;
     color: white;
-    font-size: 1rem;
+    font-size: 20px;
 
-} */
+}
 
 .footer
 {
     padding: 5% 10% 3%;
     text-align: center;
+}
+
+.footer i
+{
+    margin: 5% 3%;
+    font-size: 32px;
+}
+
+.footer i:hover
+{
+    color: coral;
 }
