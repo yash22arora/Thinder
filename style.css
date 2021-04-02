@@ -212,3 +212,9 @@ nav{
 {
     color: gray;
 }
+
+.footer
+{
+    padding: 3% 10%;
+    text-align: center;
+}
